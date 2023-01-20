@@ -1,9 +1,7 @@
 var menu = [ "Peperoni Pizza", "Supreme Pizza", "Five Meat Pizza", "Veggie Pizza", "Gluten Free Pizza", "Wings", "Cheesy Bread", "French Fries", "App Sampler", "Vanilla Cake", "Chocolate Cake", "Giant Warm Cookie", "Dippen' Dots" ]
 var order = []
 document.getElementById("CompleteOrder").addEventListener("click", completeOrder);
-
 var parsedOrder = ""
-
 for (let i = 0; i <= menu.length - 1; i++) {
     let button = document.createElement("button");
     let body = document.getElementById("button")
