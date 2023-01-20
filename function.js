@@ -32,7 +32,7 @@ for (let i = 0; i <= menu.length - 1; i++) {
         orderElement.innerHTML = "Thank you for your business!"
         parsedOrder = ""
         order = []
-    }
+    };
     
 }
 
