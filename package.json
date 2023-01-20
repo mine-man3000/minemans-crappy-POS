@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
+    "fs": "^0.0.1-security",
     "g": "^2.0.1"
   }
 }
