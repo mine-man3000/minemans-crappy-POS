@@ -1,4 +1,5 @@
 {
     "donotedit": "run for standard operation, service for service menu",
-    "launchin": "run"
-}
+    "launchin": "run",
+    "theme": "themes/eyecandy/style.css"
+}  

@@ -1,0 +1,22 @@
+* {
+    font-family: "Comic Mono";
+    src: url(file:///defaulttheme/comicmono.ttf);
+}
+
+button {
+    font-family: "Comic Mono";
+    font-size: 32px;
+    border-radius: 10px;
+    background: hotpink    }
+button:hover{
+    font-size: 32px;
+    border-radius: 10px;
+    background: hotpink;
+
+}
+body {
+    background: hotpink;
+    
+
+
+}
