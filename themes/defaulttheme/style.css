@@ -1,6 +1,6 @@
 * {
     font-family: "Comic Mono";
-    src: url(file:///defaulttheme/comicmono.ttf);
+    src: url(https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/ComicMono.ttf);
 }
 
 button {
