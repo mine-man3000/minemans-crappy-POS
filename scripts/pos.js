@@ -1,4 +1,4 @@
-var menu = [ "Peperoni Pizza", "Supreme Pizza", "Five Meat Pizza", "Veggie Pizza", "Gluten Free Pizza", "Wings", "Cheesy Bread", "French Fries", "App Sampler", "Vanilla Cake", "Chocolate Cake", "Giant Warm Cookie", "Dippen' Dots" ]
+var menu = [ "Pepperoni Pizza", "Supreme Pizza", "Five Meat Pizza", "Veggie Pizza", "Gluten Free Pizza", "Wings", "Cheesy Bread", "French Fries", "App Sampler", "Vanilla Cake", "Chocolate Cake", "Giant Warm Cookie", "Dippen' Dots" ]
 var order = []
 document.getElementById("CompleteOrder").addEventListener("click", completeOrder);
 var parsedOrder = ""
