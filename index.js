@@ -12,14 +12,16 @@ module.exports.config = config
 //reads if the launch paramater is run
 
 	function server(mode) {
-	if (interupt === false){
+		tick();
+	function tick(){
+	if (interupt === false){	
 		tickCounter++
-		console.log("Contacted Not a Server" + tickCounter)
-		setTimeout(server, 1000)
-	}}
+		console.log(mode + "Contacted Not a Server" + tickCounter)
+		setTimeout(tick, 1000)
+	}}}
 
-if(config.launchin === "run") {
-console.log("loading in standard mode....")
+if(config.launchin === "POS") {
+console.log("OpenPOS is startnig in standard mode....")
 app.whenReady().then(() => {
 	const win = new BrowserWindow({
 		width: 800,
@@ -32,6 +34,7 @@ app.whenReady().then(() => {
 }
 //reads if launch paramater is service
 if(config.launchin === "service") {
+	console.log("OpenPOS is startnig in service mode....")
 	app.whenReady().then(() => {
 		const win = new BrowserWindow({
 			width: 800,
