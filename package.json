@@ -1,7 +1,7 @@
 {
-  "name": "minemans-crappy-pos",
-  "version": "1.0.0",
-  "description": "the crappiest POS on earth",
+  "name": "openpos",
+  "version": "0.1.0",
+  "description": "Your Open Source POS and order managment solution.",
   "main": "index.js",
   "scripts": {
     "start": "electron-forge start",
