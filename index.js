@@ -6,6 +6,9 @@ var interupt = false
 var tickCounter = 0
 //load fs
 const fs = require('fs')
+//Initialize network communication
+const net = require('net')
+const client = new net.Socket();
 //set up the config list
 var config = JSON.parse(fs.readFileSync('config/config.json'));
 module.exports.config = config
@@ -13,10 +16,16 @@ module.exports.config = config
 
 	function server(mode) {
 		tick();
+		client.connect(8080, '127.0.0.1', function() {
+			console.log('Connected');
+			client.write('client' + config.serial);
+		});
 	function tick(){
-	if (interupt === false){	
+	if (interupt === false){
+		
+
 		tickCounter++
-		console.log(mode + "Contacted Not a Server" + tickCounter)
+		console.log(mode + "server connected" + tickCounter)
 		setTimeout(tick, 1000)
 	}}}
 
