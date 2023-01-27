@@ -1,7 +1,7 @@
 {
-  "name": "minemans-crappy-pos",
-  "version": "1.0.0",
-  "description": "the crappiest POS on earth",
+  "name": "openpos",
+  "version": "0.1.0",
+  "description": "Your Open Source POS and order managment solution.",
   "main": "index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -16,9 +16,13 @@
     "@electron-forge/maker-rpm": "^6.0.4",
     "@electron-forge/maker-squirrel": "^6.0.4",
     "@electron-forge/maker-zip": "^6.0.4",
-    "electron": "^22.0.0"
+    "electron": "^22.0.3"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "@electron/remote": "^2.0.9",
+    "electron-squirrel-startup": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "g": "^2.0.1",
+    "http": "^0.0.1-security"
   }
 }
