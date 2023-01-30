@@ -30,7 +30,7 @@ module.exports.config = config
 	}}}
 
 if(config.launchin === "POS") {
-console.log("OpenPOS is startnig in standard mode....")
+console.log("OpenPOS is starting in standard mode....")
 app.whenReady().then(() => {
 	const win = new BrowserWindow({
 		width: 800,
@@ -43,7 +43,7 @@ app.whenReady().then(() => {
 }
 //reads if launch paramater is service
 else if(config.launchin === "service") {
-	console.log("OpenPOS is startnig in service mode....")
+	console.log("OpenPOS is starting in service mode....")
 	app.whenReady().then(() => {
 		const win = new BrowserWindow({
 			width: 800,
