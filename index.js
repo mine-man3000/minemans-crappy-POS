@@ -42,7 +42,7 @@ app.whenReady().then(() => {
 })
 }
 //reads if launch paramater is service
-if(config.launchin === "service") {
+else if(config.launchin === "service") {
 	console.log("OpenPOS is startnig in service mode....")
 	app.whenReady().then(() => {
 		const win = new BrowserWindow({
@@ -52,4 +52,8 @@ if(config.launchin === "service") {
 		win.loadFile('service.html')
 		server("service");
 	})
+}
+else {
+	console.log(`invalid mode: ${config.launchin}`)
+	return
 }
