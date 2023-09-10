@@ -1,7 +1,7 @@
 {
     "donotedit": "run for standard operation, service for service menu",
     "launchin": "POS",
-    "theme": "themes/eyecandy/style.css",
+    "theme": "themes/defaulttheme/style.css",
     "serverLocation": "localhost:8080",
     "serial": "000000000"
 }  
