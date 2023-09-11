@@ -7,19 +7,17 @@ button {
     font-family: "Comic Mono";
     font-size: 32px;
     border-radius: 10px;
-    background: rgb(7,144,155);
-background: linear-gradient(90deg, rgba(7,144,155,1) 0%, rgba(7,27,155,1) 50%, rgba(7,144,155,1) 100%); 
-    }
+    background-color: slategray;
+    color: white;
+}
+
 button:hover{
     font-size: 32px;
     border-radius: 10px;
-    background: rgb(7,144,155);
-
+    background-color: darkslategray;
+    color: white;
 }
+
 body {
-    background: rgb(7,144,155);
-    background: linear-gradient(90deg, rgba(7,144,155,1) 0%, rgba(7,27,155,1) 50%, rgba(7,144,155,1) 100%); 
-    
-
-
+    background-color: gray;
 }
